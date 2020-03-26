@@ -269,7 +269,7 @@ body {
   margin-top: 80px;
 }
 .plus-home .plus-img {
-  background-image: url(/포토폴리오/image/plushome.jpg);
+  background-image: url("../image/plushome.jpg");
   width: 100%;
   height: 300px;
   background-position: center;
