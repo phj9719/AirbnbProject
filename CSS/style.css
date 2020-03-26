@@ -725,11 +725,10 @@ hr {
   color: #484848;
   font-size: 16px;
 }
-.join-popup .pass-save .ps1 > span {
-  border: 1px solid rgb(176, 176, 176);
-  border-radius: 4px;
-  font-size: 14px;
-  margin-right: 3px;
+.join-popup .pass-save .ps1 > span > input {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
 }
 .join-popup .pass-save .ps2 {
   background-color: white;
