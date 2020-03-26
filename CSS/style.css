@@ -18,7 +18,7 @@ body {
 }
 
 .main-navi {
-  padding: 30px;
+  padding: 24px;
   height: 110px;
   display: flex;
   justify-content: flex-end;
@@ -141,10 +141,10 @@ body {
 .sub-form {
   background-color: white;
   margin-left: 8%;
-  margin-top: 2%;
+  margin-top: 1%;
   padding: 24px;
   width: 441px;
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
   border-top: 7px solid #ffaf0f;
@@ -178,8 +178,10 @@ body {
 }
 .bottom-text {
   color: white;
+  margin-top: 30px;
   padding: 24px;
   text-align: right;
+  font-size: 14px;
   font-weight: 600;
 }
 .bottom-text:hover {
@@ -757,4 +759,8 @@ hr {
   font-weight: 800;
   color: #484848;
   margin-bottom: 15px;
+}
+
+.join-popup {
+  overflow: hidden;
 }
