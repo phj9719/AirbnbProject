@@ -15,6 +15,7 @@ body {
   background-image: url("../image/main.jpg");
   background-repeat: no repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .main-navi {
@@ -713,6 +714,7 @@ hr {
 }
 .join-popup .add-pass .add1 {
   padding: 15px 11px;
+  margin-left: 10px;
 }
 .join-popup .pass-save {
   display: flex;
